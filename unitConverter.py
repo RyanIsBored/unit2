@@ -9,8 +9,14 @@ print('4) Celsius to Fahrenheit')
 
 choice = int(input('Choose a number: '))
 
+if choice == 1:
+    kilometers = float(input('Enter number of Kilometers: '))
 
-
+if choice == 2:
+    kilograms = float(input('Enter number of Kilograms: '))
+    
+if choice == 3:
+    liters = float(input('Enter number of Liters: '))
 
 if choice == 4:
     celsius = float(input('Enter Degrees in Celsius: '))
