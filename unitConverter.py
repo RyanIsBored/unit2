@@ -20,3 +20,6 @@ if choice == 3:
 
 if choice == 4:
     celsius = float(input('Enter Degrees in Celsius: '))
+
+else:
+    print('No.')
