@@ -11,6 +11,8 @@ choice = int(input('Choose a number: '))
 
 if choice == 1:
     kilometers = float(input('Enter number of Kilometers: '))
+    miles = kilometers*0.621371
+    print(miles)
 
 if choice == 2:
     kilograms = float(input('Enter number of Kilograms: '))
@@ -21,5 +23,5 @@ if choice == 3:
 if choice == 4:
     celsius = float(input('Enter Degrees in Celsius: '))
 
-else:
+if choice<1 or choice>4:
     print('No.')
