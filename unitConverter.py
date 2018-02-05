@@ -26,7 +26,8 @@ if choice == 3:
 
 if choice == 4:
     celsius = float(input('Enter Degrees in Celsius: '))
-    fahrenheit = 
+    fahrenheit = celsius*1.8+32
+    print(fahrenheit, 'degrees Fahrenheit')
 
 if choice<1 or choice>4:
     print('No.')
