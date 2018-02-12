@@ -14,3 +14,7 @@ if (len(firstword))==(len(lastword)):
 
 if 'p' in firstword and 'p' in lastword:
     print('Both words have a p')
+if 'p' not in firstword and 'p' in lastword:
+    print('Only the second word has a p')
+if 'p' in firstword and 'p' not in lastword:
+    print('Only the first word has a p')
